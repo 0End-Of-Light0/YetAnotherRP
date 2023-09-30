@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-	  "preinstall": "npm install --save react react-dom webpack@3.10.0 --python=python2.7",
+    "preinstall": "npm install --save react react-dom webpack@3.10.0 --python=python2.7",
     "pack": "python scripts/pack.py",
     "prepare": "husky install && cd scripts/python && py -m venv venv",
     "prepare:husky": "husky install",
